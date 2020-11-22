@@ -11,6 +11,7 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
  
 repositories {
+    mavenCentral()
     mavenLocal()
     maven {
         url = uri('http://repo.maven.apache.org/maven2')
@@ -31,6 +32,11 @@ sourceCompatibility = '1.8'
 
 
 war {
-	baseName = 'CloudSpringMVC'
-	archiveName'CloudSpringMVC.war'   
+	baseName = 'ROOT'
+	archiveName'ROOT.war'   
+}
+
+copy {
+    from 'build/libs/ROOT.war'
+    into '/home/ec2-user//apps/apache-tomcat-9.0.40/webapps'
 }

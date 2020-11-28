@@ -36,9 +36,8 @@ war {
 	archiveName'ROOT.war'   
 }
 
-/*
+
 copy {
     from 'build/libs/ROOT.war'
     into '/home/ec2-user/apps/apache-tomcat-9.0.40/webapps'
 }
-*/

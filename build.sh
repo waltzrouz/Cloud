@@ -9,3 +9,5 @@ gradle build init
 
 /home/ec2-user/apps/apache-tomcat-9.0.40/bin/startup.sh
 
+
+

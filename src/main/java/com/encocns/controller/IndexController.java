@@ -12,7 +12,6 @@ public class IndexController {
 	public String printWelcome(ModelMap model) throws Exception {
 
 		
-		System.out.println("trace");
 		
 		return "index";
 
